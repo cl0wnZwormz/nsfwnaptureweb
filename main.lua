@@ -1,6 +1,5 @@
 local img = get("boobimg")
 local button = get("newbutton")
-
 function generateImage()
     local res = fetch({
         url = "https://nekobot.xyz/api/image?type=boobs",
